@@ -1,0 +1,90 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  width: 290px;
+  height: 400px;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 30px 0px rgb(15, 15, 15);
+}
+
+h1 {
+  margin: 0;
+  margin-top: 40px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-size: 11px;
+  margin-top: 7px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.input {
+  height: 50px;
+  width: 220px;
+  border-radius: 10px;
+  border-style: solid;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.item:first-of-type {
+  margin-top: 45px;
+}
+
+.button {
+  margin-top: 18px;
+  height: 40px;
+  width: 220px;
+  color: rgb(252, 252, 252);
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(34, 121, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover{
+  background-color: rgb(66, 164, 28);
+}
+
+.checkbox {
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Remember {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+input:focus:invalid {
+  border: 2px solid red;
+}
+
+a{
+  padding-left: 20px;
+  color: white;
+  text-decoration: none;
+}
